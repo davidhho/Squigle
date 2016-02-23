@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE41763C1C7CBA8400DD37C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41763B1C7CBA8400DD37C3 /* AppDelegate.swift */; };
+		EE41763E1C7CBA8400DD37C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41763D1C7CBA8400DD37C3 /* ViewController.swift */; };
+		EE4176411C7CBA8400DD37C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE41763F1C7CBA8400DD37C3 /* Main.storyboard */; };
+		EE4176431C7CBA8400DD37C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4176421C7CBA8400DD37C3 /* Assets.xcassets */; };
+		EE4176461C7CBA8400DD37C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4176441C7CBA8400DD37C3 /* LaunchScreen.storyboard */; };
+		EE4176511C7CBA8400DD37C3 /* SquigleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4176501C7CBA8400DD37C3 /* SquigleTests.swift */; };
+		EE41765C1C7CBA8400DD37C3 /* SquigleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41765B1C7CBA8400DD37C3 /* SquigleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE41764D1C7CBA8400DD37C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4176301C7CBA8400DD37C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4176371C7CBA8400DD37C3;
+			remoteInfo = Squigle;
+		};
+		EE4176581C7CBA8400DD37C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4176301C7CBA8400DD37C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4176371C7CBA8400DD37C3;
+			remoteInfo = Squigle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4176381C7CBA8400DD37C3 /* Squigle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squigle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41763B1C7CBA8400DD37C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE41763D1C7CBA8400DD37C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE4176401C7CBA8400DD37C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4176421C7CBA8400DD37C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4176451C7CBA8400DD37C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4176471C7CBA8400DD37C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE41764C1C7CBA8400DD37C3 /* SquigleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquigleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4176501C7CBA8400DD37C3 /* SquigleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquigleTests.swift; sourceTree = "<group>"; };
+		EE4176521C7CBA8400DD37C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4176571C7CBA8400DD37C3 /* SquigleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquigleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41765B1C7CBA8400DD37C3 /* SquigleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquigleUITests.swift; sourceTree = "<group>"; };
+		EE41765D1C7CBA8400DD37C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4176351C7CBA8400DD37C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4176491C7CBA8400DD37C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4176541C7CBA8400DD37C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE41762F1C7CBA8400DD37C3 = {
+			isa = PBXGroup;
+			children = (
+				EE41763A1C7CBA8400DD37C3 /* Squigle */,
+				EE41764F1C7CBA8400DD37C3 /* SquigleTests */,
+				EE41765A1C7CBA8400DD37C3 /* SquigleUITests */,
+				EE4176391C7CBA8400DD37C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4176391C7CBA8400DD37C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4176381C7CBA8400DD37C3 /* Squigle.app */,
+				EE41764C1C7CBA8400DD37C3 /* SquigleTests.xctest */,
+				EE4176571C7CBA8400DD37C3 /* SquigleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE41763A1C7CBA8400DD37C3 /* Squigle */ = {
+			isa = PBXGroup;
+			children = (
+				EE41763B1C7CBA8400DD37C3 /* AppDelegate.swift */,
+				EE41763D1C7CBA8400DD37C3 /* ViewController.swift */,
+				EE41763F1C7CBA8400DD37C3 /* Main.storyboard */,
+				EE4176421C7CBA8400DD37C3 /* Assets.xcassets */,
+				EE4176441C7CBA8400DD37C3 /* LaunchScreen.storyboard */,
+				EE4176471C7CBA8400DD37C3 /* Info.plist */,
+			);
+			path = Squigle;
+			sourceTree = "<group>";
+		};
+		EE41764F1C7CBA8400DD37C3 /* SquigleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4176501C7CBA8400DD37C3 /* SquigleTests.swift */,
+				EE4176521C7CBA8400DD37C3 /* Info.plist */,
+			);
+			path = SquigleTests;
+			sourceTree = "<group>";
+		};
+		EE41765A1C7CBA8400DD37C3 /* SquigleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE41765B1C7CBA8400DD37C3 /* SquigleUITests.swift */,
+				EE41765D1C7CBA8400DD37C3 /* Info.plist */,
+			);
+			path = SquigleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4176371C7CBA8400DD37C3 /* Squigle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4176601C7CBA8400DD37C3 /* Build configuration list for PBXNativeTarget "Squigle" */;
+			buildPhases = (
+				EE4176341C7CBA8400DD37C3 /* Sources */,
+				EE4176351C7CBA8400DD37C3 /* Frameworks */,
+				EE4176361C7CBA8400DD37C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squigle;
+			productName = Squigle;
+			productReference = EE4176381C7CBA8400DD37C3 /* Squigle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE41764B1C7CBA8400DD37C3 /* SquigleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4176631C7CBA8400DD37C3 /* Build configuration list for PBXNativeTarget "SquigleTests" */;
+			buildPhases = (
+				EE4176481C7CBA8400DD37C3 /* Sources */,
+				EE4176491C7CBA8400DD37C3 /* Frameworks */,
+				EE41764A1C7CBA8400DD37C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE41764E1C7CBA8400DD37C3 /* PBXTargetDependency */,
+			);
+			name = SquigleTests;
+			productName = SquigleTests;
+			productReference = EE41764C1C7CBA8400DD37C3 /* SquigleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4176561C7CBA8400DD37C3 /* SquigleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4176661C7CBA8400DD37C3 /* Build configuration list for PBXNativeTarget "SquigleUITests" */;
+			buildPhases = (
+				EE4176531C7CBA8400DD37C3 /* Sources */,
+				EE4176541C7CBA8400DD37C3 /* Frameworks */,
+				EE4176551C7CBA8400DD37C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4176591C7CBA8400DD37C3 /* PBXTargetDependency */,
+			);
+			name = SquigleUITests;
+			productName = SquigleUITests;
+			productReference = EE4176571C7CBA8400DD37C3 /* SquigleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4176301C7CBA8400DD37C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = DavidHo;
+				TargetAttributes = {
+					EE4176371C7CBA8400DD37C3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EE41764B1C7CBA8400DD37C3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EE4176371C7CBA8400DD37C3;
+					};
+					EE4176561C7CBA8400DD37C3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EE4176371C7CBA8400DD37C3;
+					};
+				};
+			};
+			buildConfigurationList = EE4176331C7CBA8400DD37C3 /* Build configuration list for PBXProject "Squigle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE41762F1C7CBA8400DD37C3;
+			productRefGroup = EE4176391C7CBA8400DD37C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4176371C7CBA8400DD37C3 /* Squigle */,
+				EE41764B1C7CBA8400DD37C3 /* SquigleTests */,
+				EE4176561C7CBA8400DD37C3 /* SquigleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4176361C7CBA8400DD37C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4176461C7CBA8400DD37C3 /* LaunchScreen.storyboard in Resources */,
+				EE4176431C7CBA8400DD37C3 /* Assets.xcassets in Resources */,
+				EE4176411C7CBA8400DD37C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE41764A1C7CBA8400DD37C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4176551C7CBA8400DD37C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4176341C7CBA8400DD37C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41763E1C7CBA8400DD37C3 /* ViewController.swift in Sources */,
+				EE41763C1C7CBA8400DD37C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4176481C7CBA8400DD37C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4176511C7CBA8400DD37C3 /* SquigleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4176531C7CBA8400DD37C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41765C1C7CBA8400DD37C3 /* SquigleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE41764E1C7CBA8400DD37C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4176371C7CBA8400DD37C3 /* Squigle */;
+			targetProxy = EE41764D1C7CBA8400DD37C3 /* PBXContainerItemProxy */;
+		};
+		EE4176591C7CBA8400DD37C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4176371C7CBA8400DD37C3 /* Squigle */;
+			targetProxy = EE4176581C7CBA8400DD37C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE41763F1C7CBA8400DD37C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4176401C7CBA8400DD37C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4176441C7CBA8400DD37C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4176451C7CBA8400DD37C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE41765E1C7CBA8400DD37C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE41765F1C7CBA8400DD37C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4176611C7CBA8400DD37C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Squigle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DavidHo.Squigle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4176621C7CBA8400DD37C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Squigle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DavidHo.Squigle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE4176641C7CBA8400DD37C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquigleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DavidHo.SquigleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squigle.app/Squigle";
+			};
+			name = Debug;
+		};
+		EE4176651C7CBA8400DD37C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquigleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DavidHo.SquigleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squigle.app/Squigle";
+			};
+			name = Release;
+		};
+		EE4176671C7CBA8400DD37C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquigleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DavidHo.SquigleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Squigle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE4176681C7CBA8400DD37C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquigleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DavidHo.SquigleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Squigle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4176331C7CBA8400DD37C3 /* Build configuration list for PBXProject "Squigle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41765E1C7CBA8400DD37C3 /* Debug */,
+				EE41765F1C7CBA8400DD37C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4176601C7CBA8400DD37C3 /* Build configuration list for PBXNativeTarget "Squigle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4176611C7CBA8400DD37C3 /* Debug */,
+				EE4176621C7CBA8400DD37C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4176631C7CBA8400DD37C3 /* Build configuration list for PBXNativeTarget "SquigleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4176641C7CBA8400DD37C3 /* Debug */,
+				EE4176651C7CBA8400DD37C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4176661C7CBA8400DD37C3 /* Build configuration list for PBXNativeTarget "SquigleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4176671C7CBA8400DD37C3 /* Debug */,
+				EE4176681C7CBA8400DD37C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4176301C7CBA8400DD37C3 /* Project object */;
+}
